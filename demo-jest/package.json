@@ -1,0 +1,14 @@
+{
+  "name": "demo-jest",
+  "version": "0.0.1",
+  "description": "Tutorial demo Jest - Testing Framework JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fari",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
