@@ -11,7 +11,7 @@ describe("Demo test with jest", () => {
             name: "Testing-toEqual Expect Jest"
         };
         expect(subject).toEqual(actual);
-        
+
         const listOfCharacterOnePiece = [
             {name: "Monkey D.Luffy"},
             {name: "Roronoa Zorro"},
@@ -23,5 +23,25 @@ describe("Demo test with jest", () => {
             {name: "Portgas D.Ace"}
         ];
         expect(listOfCharacterOnePiece).toEqual(actualCharacter);
-    });    
+    }); 
+    
+    test("testing toMatchObject", () => {
+        const subject = { name: "Testing-toMatchObject Expect Jest"};
+        const actual = {
+            name: "Testing-toMatchObject Expect Jest"
+        }
+        expect(subject).toMatchObject(actual);
+
+        const listOfCharacterOnePiece = [
+            {name: "Monkey D.Luffy"},
+            {name: "Roronoa Zorro"},
+            {name: "Portgas D.Ace"}
+        ];
+        const actualCharacter = [
+            {name: "Monkey D.Luffy"},
+            {name: "Roronoa Zorro"},
+            {name: "Portgas D.Ace"}
+        ];
+        expect(listOfCharacterOnePiece).toMatchObject(actualCharacter);
+    })
 });
