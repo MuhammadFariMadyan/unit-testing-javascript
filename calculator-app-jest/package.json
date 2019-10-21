@@ -1,0 +1,15 @@
+{
+  "name": "calculator-app-jest",
+  "version": "0.0.1",
+  "description": "Calculator app with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Fari",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
